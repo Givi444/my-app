@@ -1,8 +1,8 @@
-import './Profile.css';
+import s from './Profile.module.css';
 
 const Profile = () => {
   return (
-    <div className="content">
+    <div className={s.content}>
         <div>
           <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/01/FotoJet9238ksajgd928346jsgd.jpg" />
         </div>
@@ -14,11 +14,11 @@ const Profile = () => {
           <div>
             New posts
           </div>
-          <div>
-            <div>
+          <div className={s.posts}>
+            <div className={s.item}>
               Post 1
             </div>
-            <div>
+            <div className={s.item}>
               Post 2
             </div>
           </div>
