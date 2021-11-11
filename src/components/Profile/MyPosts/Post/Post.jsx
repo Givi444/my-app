@@ -6,7 +6,7 @@ const Post = (props) => {
       <img src="https://www.shareicon.net/data/512x512/2016/07/26/802043_man_512x512.png" />
       { props.message }
       <div>
-        <span>like</span>
+        <span>like</span> { props.likesCount }
       </div>
     </div>
   );
