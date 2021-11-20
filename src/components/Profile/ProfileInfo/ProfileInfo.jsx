@@ -1,15 +1,17 @@
-import MyPosts from "./MyPosts/MyPosts";
-import s from "./Profile.module.css";
+import React from 'react';
+import s from "./ProfileInfo.module.css";
+import MyPosts from "../MyPosts/MyPosts";
 
-const Profile = () => {
+const ProfileInfo = () => {
   return (
     <div>
       <div>
         <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/01/FotoJet9238ksajgd928346jsgd.jpg" />
       </div>
-      <div>avatar + description</div>
-      <MyPosts />
+      <div className={s.descriptionBlock}>
+          avatar + description
+      </div>
     </div>
   );
 };
-export default Profile;
+export default ProfileInfo;
