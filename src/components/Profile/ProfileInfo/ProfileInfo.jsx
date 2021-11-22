@@ -6,7 +6,7 @@ const ProfileInfo = () => {
   return (
     <div>
       <div>
-        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/01/FotoJet9238ksajgd928346jsgd.jpg" />
+        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/01/FotoJet9238ksajgd928346jsgd.jpg" alt="Givi" />
       </div>
       <div className={s.descriptionBlock}>
           avatar + description
